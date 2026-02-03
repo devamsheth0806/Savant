@@ -12,8 +12,6 @@ Built with VocalBridge's conversational AI and LiveKit's real-time voice infrast
 - 📊 **Automated incident reporting** via Zapier MCP
 - 💾 **Structured data logging** to Google Sheets
 - 📧 **Email reports** to supervisors
-- 💬 **Slack notifications** for team coordination
-
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -45,7 +43,6 @@ Built with VocalBridge's conversational AI and LiveKit's real-time voice infrast
    ZAPIER_MCP_SERVER=http://localhost:3000
    ZAPIER_EMAIL_TO=supervisor@example.com
    ZAPIER_SHEETS_ID=your-google-sheet-id
-   ZAPIER_SLACK_CHANNEL=#incidents
    ```
 
 4. **Run the application**
@@ -99,7 +96,6 @@ The Savant/
 9. Triggers Zapier MCP tools:
    - **Google Sheets**: Logs incident data
    - **Gmail**: Sends report to supervisor
-   - **Slack**: Notifies team in #incidents channel
 
 ## 🔑 VocalBridge Configuration
 
@@ -152,7 +148,6 @@ Extract emergency incident data as JSON:
 ### Required Tools
 1. **google_sheets_append_row** - Log incidents
 2. **gmail_send_email** - Email reports
-3. **slack_post_message** - Team notifications
 
 ### Google Sheets Setup
 Create a sheet with columns:
