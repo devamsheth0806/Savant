@@ -1,0 +1,14 @@
+requests
+pypdf
+faiss-cpu
+tinydb
+openai
+streamlit
+numpy
+sentence-transformers
+python-dotenv
+livekit
+fastapi
+uvicorn
+python-multipart
+pyttsx3
